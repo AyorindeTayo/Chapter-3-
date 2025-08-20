@@ -58,11 +58,11 @@ def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):
     plt.legend(loc='upper left')
     plt.show()
 
-### Exercise 1: Data Preparation and Choosing a Classifier
+# Exercise 1: Data Preparation and Choosing a Classifier
 ## Concepts Covered: Preprocessing, No Free Lunch theorem, workflow for classifier selection.
-1. Load the Iris dataset and select features (e.g., petal length and width for 2D visualization).
-2. Split into train/test sets and standardize.
-3. Discuss: Why no single classifier is best? Consider dataset size, noise, separability.
+- Load the Iris dataset and select features (e.g., petal length and width for 2D visualization).
+- Split into train/test sets and standardize.
+- Discuss: Why no single classifier is best? Consider dataset size, noise, separability.
    
 
 
