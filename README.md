@@ -57,7 +57,7 @@ def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):
                     linewidth=1, marker='o', s=100, label='test set')
     plt.legend(loc='upper left')
     plt.show()
-
+```python
 # Exercise 1: Data Preparation and Choosing a Classifier
 ## Concepts Covered: Preprocessing, No Free Lunch theorem, workflow for classifier selection.
 - Load the Iris dataset and select features (e.g., petal length and width for 2D visualization).
