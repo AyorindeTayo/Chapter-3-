@@ -2,7 +2,7 @@
 Machine Learning classifier using Scikitlearn 
 
 
-# Machine Learning Classifiers Lab: Chapter 3
+
 # Machine Learning Classifiers Lab: Based on Chapter 3 of Python Machine Learning (2nd Edition)
 
 ## Overview
@@ -329,13 +329,11 @@ for name, model in models.items():
 
 ## Conclusion and Analysis
 
-- Save your notebook with all plots, accuracies, and discussions.
+- Save your notebook with all plots, accuracies, and discussions and push to Github repositery.
 - Key Questions:
   - How does regularization prevent overfitting?
   - When to use ensembles vs. simple models?
-- Extensions:
-  - Use full Iris features (4D).
-  - Apply to new dataset (e.g., breast cancer via `load_breast_cancer`).
+
 
 **Resources:** Book's GitHub repo for full code.
 
