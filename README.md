@@ -28,7 +28,7 @@ This lab is designed for students to explore the key concepts from Chapter 3: "A
 ### Plot Decision Regions (for visualizing boundaries)
 Use these for visualizations (adapted from the book's code repository).
 
-```python
+
 from matplotlib.colors import ListedColormap
 import numpy as np
 import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ def plot_decision_regions(X, y, classifier, test_idx=None, resolution=0.02):
                     linewidth=1, marker='o', s=100, label='test set')
     plt.legend(loc='upper left')
     plt.show()
-```python
+
 
 # Exercise 1: Data Preparation and Choosing a Classifier
 ## Concepts Covered: Preprocessing, No Free Lunch theorem, workflow for classifier selection.
